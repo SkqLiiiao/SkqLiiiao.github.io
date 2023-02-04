@@ -7,7 +7,7 @@ password: skqliiiao
 abstract: 一些词组短语的记录
 ---
 
-## E01
+## E02
 
 1. I just think it's little **over the top**.
 
@@ -19,7 +19,7 @@ I thought the decorations are way over the top.
 
 **to start to feel less embarrassed and to become more relaxed when you are with other people, or to make someone feel like this**
 
-He seemed quite nervous at the beginning, but he soon loosened up.
+ He seemed quite nervous at the beginning, but he soon loosened up.
 
 3. I made a **judgement call**.
 
@@ -51,7 +51,7 @@ They tried to keep the report under wraps.
 
 If you fail, don't beat yourself up; just try again.
 
-## E02
+## E03
 
 1. I **am all for teaching** him a lesson.
 
@@ -95,7 +95,7 @@ Work can get tough in the middle of a term but hang in there and it'll be OK.
 
 When all is said and done, you can only do your best.
 
-## E03
+## E04
 
 1. Once, **on a dare**, he even boxed with an alligator.
 
@@ -132,3 +132,67 @@ After losing $20,000 on my last business venture, I’m not taking any chances t
 **to not pause or show any uncertainty, usually when this is surprising:**
 
 "That's what I thought," replied Olivia, without missing a beat.
+
+## E05
+
+1. Do you **care to** join me?
+
+**An invitation for one to engage in a particular action or activity with someone else (or a group).**
+
+I am going out for a jog - *care to* join me?
+
+2. And I've learned that the only way I can move to the next level of my awakening is if we all can somehow **get past** the incident.
+
+**to be able to stop something from affecting you, upsetting you, or influencing you**
+
+I'm sorry, but I'll never be able to *get past* the fact that Robert cheated on you.
+
+3. Somebody's **full of herself**.
+
+**If you say to someone 'you're full of yourself', you disapprove of them because they appear very pleased with themselves, thinking that they are very clever, special, or important.**
+
+He's *full of himself*, sharp and aggressive and sometimes he comes over badly.
+
+4. You just gotta show 'em you're willing to **give as good as you get**.
+
+**to be strong and confident enough to treat people in the same way that they treat you, especially in an argument or a fight**
+
+There's a lot of teasing and fighting among the crew, and you have to be able to *give as good as you get*.
+
+5. Well, Mom, instead of **dredging up** the whole incident, maybe we should just try and repress it, like a- like a normal family.
+
+**to start talking or thinking again about (something unpleasant that happened a long time ago)**
+
+She didn't like to *dredge up* bad memories.
+
+6. I'm about to **embark on** a new journey.
+
+**to begin (a journey)**
+
+They *embarked on* their trip to America with high hopes.
+
+7. That's why you're going to **pull a fast one on her**, and I'm not going to like it one bit.
+
+**to successfully deceive someone:**
+
+You paid too much - I think he pulled a fast one on you.
+
+## E06
+
+1. Just **sweep it under the rug**.
+
+to hide a problem or try to keep it secret instead of dealing with it
+
+The committee is being accused of *sweeping financial problems under the rug* to avoid embarrassment.
+
+2. Now **in light of** what happened at school today, do you have any feelings you'd like to express?
+
+**because of**
+
+*In the light of* recent incidents, we are asking our customers to take particular care of their personal belongings.
+
+3. You look like you **patched things up** pretty good, huh?
+
+**to deal with (a problem, disagreement, etc.) in order to improve or repair a relationship**
+
+He is going to try to *patch things up* with his girlfriend.
