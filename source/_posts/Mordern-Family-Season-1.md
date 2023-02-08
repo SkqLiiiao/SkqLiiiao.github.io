@@ -9,50 +9,6 @@ abstract: 一些词组短语的记录
 
 ## E02
 
-1. I just think it's little **over the top**.
-
-**too extreme and not suitable, or demanding too much attention or effort, especially in an uncontrolled way**
-
-I thought the decorations are way over the top.
-
-2. You need to **loosen up** and have fun.
-
-**to start to feel less embarrassed and to become more relaxed when you are with other people, or to make someone feel like this**
-
- He seemed quite nervous at the beginning, but he soon loosened up.
-
-3. I made a **judgement call**.
-
-**a decision someone has to make using their own ideas and opinions **
-
-Do we go by plane or train to the conference? - It's a judgement call.
-
-5. I'm not sure you can **keep up with** this conversation.
-
-**to do whatever is necessary to stay level or equal with someone or something**
-
-Wages are failing to keep up with inflation.
-
-6. We **dodged a bullet** on this.
-
-**To have a narrow escape; to avoid injury, disaster, or some other undesirable situation.** 
-
-I really dodged a bullet when my exam was postponed to next week, as I hadn't studied for it at all.
-
-7. because I kept the whole gay things very **under wraps**.
-
-**secret**
-
-They tried to keep the report under wraps.
-
-8. How long are you gonna **beat yourself up** over one mistake?
-
-**to blame or criticize yourself, usually in a way that is unfair or unnecessary**
-
-If you fail, don't beat yourself up; just try again.
-
-## E03
-
 1. I **am all for teaching** him a lesson.
 
 **to approve of or support something very much**
@@ -95,7 +51,7 @@ Work can get tough in the middle of a term but hang in there and it'll be OK.
 
 When all is said and done, you can only do your best.
 
-## E04
+## E03
 
 1. Once, **on a dare**, he even boxed with an alligator.
 
@@ -133,7 +89,7 @@ After losing $20,000 on my last business venture, I’m not taking any chances t
 
 "That's what I thought," replied Olivia, without missing a beat.
 
-## E05
+## E04
 
 1. Do you **care to** join me?
 
@@ -177,7 +133,7 @@ They *embarked on* their trip to America with high hopes.
 
 You paid too much - I think he pulled a fast one on you.
 
-## E06
+## E05
 
 1. Just **sweep it under the rug**.
 
@@ -196,3 +152,47 @@ The committee is being accused of *sweeping financial problems under the rug* to
 **to deal with (a problem, disagreement, etc.) in order to improve or repair a relationship**
 
 He is going to try to *patch things up* with his girlfriend.
+
+## E06
+
+1. I just think it's a little **over the top**.
+
+**too extreme and not suitable, or demanding too much attention or effort, especially in an uncontrolled way**
+
+I thought the decorations are way over the top.
+
+2. You need to **loosen up** and have fun.
+
+**to start to feel less embarrassed and to become more relaxed when you are with other people, or to make someone feel like this**
+
+ He seemed quite nervous at the beginning, but he soon loosened up.
+
+3. I made a **judgement call**.
+
+**a decision someone has to make using their own ideas and opinions **
+
+Do we go by plane or train to the conference? - It's a judgement call.
+
+5. I'm not sure you can **keep up with** this conversation.
+
+**to do whatever is necessary to stay level or equal with someone or something**
+
+Wages are failing to keep up with inflation.
+
+6. We **dodged a bullet** on this.
+
+**To have a narrow escape; to avoid injury, disaster, or some other undesirable situation.** 
+
+I really dodged a bullet when my exam was postponed to next week, as I hadn't studied for it at all.
+
+7. because I kept the whole gay things very **under wraps**.
+
+**secret**
+
+They tried to keep the report under wraps.
+
+8. How long are you gonna **beat yourself up** over one mistake?
+
+**to blame or criticize yourself, usually in a way that is unfair or unnecessary**
+
+If you fail, don't beat yourself up; just try again.
