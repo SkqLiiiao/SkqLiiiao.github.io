@@ -1,0 +1,1223 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 6.1.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" integrity="sha256-DfWjNxDkM94fVBWx1H5BMMp0Zq7luBlV8QRcSES7s+0=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"skqliiiao.github.io","root":"/","images":"/images","scheme":"Pisces","darkmode":false,"version":"8.11.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="大三上必修专业课「激光原理与技术」的学习笔记。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="「激光原理与技术」学习笔记">
+<meta property="og:url" content="https://skqliiiao.github.io/laster/index.html">
+<meta property="og:site_name" content="SkqLiiiao&#39;s Blog">
+<meta property="og:description" content="大三上必修专业课「激光原理与技术」的学习笔记。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://raw.githubusercontent.com/SkqLiiiao/image/main/cd1e540bb6ddbed8eaf530f060ee701e.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/SkqLiiiao/image/main/c0e860edd8b1141af0d97522cdc30afa.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/SkqLiiiao/image/main/81eef61538a7f37e13f8b13d7f9de072.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/SkqLiiiao/image/main/4730a5cc5b6b2d177956c4217fcabda1.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/SkqLiiiao/image/main/83b7c8835a18abb7018371b4535680fb.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/SkqLiiiao/image/main/e119ab01993b789f30955f48194a8be4.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/SkqLiiiao/image/main/bd91865c87e3913a2c9b3c18b08d6e0e.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/SkqLiiiao/image/main/e29895c390e458f5c2f7648058cfc0a8.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/SkqLiiiao/image/main/b9330d0f92df2d51a07e21010445ade7.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/SkqLiiiao/image/main/dcaff0f8810bcc2fb18388c779bbf770.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/SkqLiiiao/image/main/b86ca06884b9ee69a914406cde06fde8.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/SkqLiiiao/image/main/64261ca7749515eb7a95baf162c02278.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/SkqLiiiao/image/main/61bfae1645b003b46bae771a05824098.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/SkqLiiiao/image/main/f1658a696c55a660c95a00e51b43147e.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/SkqLiiiao/image/main/b79108d5f8e2aa9a60dd4e9b80a57a7f.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/SkqLiiiao/image/main/image-20230215110032126.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/SkqLiiiao/image/main/d1512264f0a4d6024bf906d7f397023d.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/SkqLiiiao/image/main/image-20230215113313949.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/SkqLiiiao/image/main/image-20230215113455799.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/SkqLiiiao/image/main/image-20230215120502881.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/SkqLiiiao/image/main/image-20230215121351497.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/SkqLiiiao/image/main/image-20230215121411041.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/SkqLiiiao/image/main/image-20230215121337143-20230215134214500.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/SkqLiiiao/image/main/image-20230215121324661.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/SkqLiiiao/image/main/image-20230215121546201.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/SkqLiiiao/image/main/image-20230215121648176-20230215134214755.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/SkqLiiiao/image/main/image-20230215121739328.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/SkqLiiiao/image/main/image-20230215121829905-20230215134214920.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/SkqLiiiao/image/main/image-20230215121949997-20230215134214997.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/SkqLiiiao/image/main/5c2ab272d7673d1a1d307972d93238b5.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/SkqLiiiao/image/main/image-20230215141530718.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/SkqLiiiao/image/main/f33b8e702aee202d927ff06882cbe80a.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/SkqLiiiao/image/main/ad17200c35af2a0e9be016d8e6488d9f.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/SkqLiiiao/image/main/7d83aa54f482f6aefd0d4665c374ea11.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/SkqLiiiao/image/main/ecc45e7e9a40a045814f10aec9b22a28.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/SkqLiiiao/image/main/7dabe445d53f58bc94f51a99b4b80f40.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/SkqLiiiao/image/main/8aee4f92969dfc51f56968dfc347628b.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/SkqLiiiao/image/main/ac03098b1a09022b1b2e7de992503313.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/SkqLiiiao/image/main/image-20230215205310340.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/SkqLiiiao/image/main/image-20230215205434146.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/SkqLiiiao/image/main/image-20230215210114544.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/SkqLiiiao/image/main/image-20230215212609363.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/SkqLiiiao/image/main/49c527637294b1d7a7ab3c67bc8c3127.png">
+<meta property="article:published_time" content="2023-02-15T05:41:46.000Z">
+<meta property="article:modified_time" content="2023-02-18T05:15:48.241Z">
+<meta property="article:author" content="SkqLiiiao">
+<meta property="article:tag" content="激光">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/SkqLiiiao/image/main/cd1e540bb6ddbed8eaf530f060ee701e.png">
+
+
+<link rel="canonical" href="https://skqliiiao.github.io/laster/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://skqliiiao.github.io/laster/","path":"laster/","title":"「激光原理与技术」学习笔记"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>「激光原理与技术」学习笔记 | SkqLiiiao's Blog</title>
+  
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">SkqLiiiao's Blog</p>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li><li class="menu-item menu-item-events"><a href="/events/" rel="section"><i class="fa fa fa-calendar fa-fw"></i>日程</a></li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E4%B8%80%E7%AB%A0-%E6%BF%80%E5%85%89%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86%E5%8F%8A%E5%85%B6%E7%89%B9%E6%80%A7"><span class="nav-number">1.</span> <span class="nav-text">第一章
+激光的基本原理及其特性</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%9B%B8%E5%B9%B2%E6%80%A7%E7%9A%84%E5%85%89%E5%AD%90%E6%8F%8F%E8%BF%B0"><span class="nav-number">1.1.</span> <span class="nav-text">1.1 相干性的光子描述</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%85%89%E5%AD%90%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%80%A7%E8%B4%A8"><span class="nav-number">1.1.1.</span> <span class="nav-text">光子的基本性质</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%85%89%E6%B3%A2%E6%A8%A1%E5%BC%8F%E5%92%8C%E5%85%89%E5%AD%90%E7%8A%B6%E6%80%81%E6%99%B6%E6%A0%BC"><span class="nav-number">1.1.2.</span> <span class="nav-text">光波模式和光子状态晶格</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%85%89%E5%AD%90%E7%9A%84%E7%9B%B8%E5%B9%B2%E6%80%A7"><span class="nav-number">1.1.3.</span> <span class="nav-text">光子的相干性</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%85%89%E5%AD%90%E7%9A%84%E7%AE%80%E5%B9%B6%E5%BA%A6"><span class="nav-number">1.1.4.</span> <span class="nav-text">光子的简并度</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%89%E7%9A%84%E5%8F%97%E6%BF%80%E8%BE%90%E5%B0%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5"><span class="nav-number">1.2.</span> <span class="nav-text">1.2 光的受激辐射基本概念</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%BB%91%E4%BD%93%E8%BE%90%E5%B0%84%E7%9A%84%E6%99%AE%E6%9C%97%E5%85%8B%E5%85%AC%E5%BC%8F"><span class="nav-number">1.2.1.</span> <span class="nav-text">黑体辐射的普朗克公式</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%87%AA%E5%8F%91%E8%BE%90%E5%B0%84%E5%92%8C%E5%8F%97%E6%BF%80%E8%BE%90%E5%B0%84"><span class="nav-number">1.2.2.</span> <span class="nav-text">自发辐射和受激辐射</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%87%AA%E5%8F%91%E8%BE%90%E5%B0%84"><span class="nav-number">1.2.3.</span> <span class="nav-text">自发辐射</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%8F%97%E6%BF%80%E8%BE%90%E5%B0%84"><span class="nav-number">1.2.4.</span> <span class="nav-text">受激辐射</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%8F%97%E6%BF%80%E5%90%B8%E6%94%B6"><span class="nav-number">1.2.5.</span> <span class="nav-text">受激吸收</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#a_21b_21b_12-%E7%9A%84%E7%9B%B8%E4%BA%92%E5%85%B3%E7%B3%BB"><span class="nav-number">1.2.6.</span> <span class="nav-text">\(A_{21},B_{21},B_{12}\) 的相互关系</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%89%E7%9A%84%E5%8F%97%E6%BF%80%E8%BE%90%E5%B0%84%E6%94%BE%E5%A4%A7"><span class="nav-number">1.3.</span> <span class="nav-text">1.3 光的受激辐射放大</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%85%89%E6%94%BE%E5%A4%A7%E6%A6%82%E5%BF%B5%E7%9A%84%E4%BA%A7%E7%94%9F"><span class="nav-number">1.3.1.</span> <span class="nav-text">光放大概念的产生</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%85%89%E6%94%BE%E5%A4%A7%E7%9A%84%E6%9D%A1%E4%BB%B6%E7%B2%92%E5%AD%90%E6%95%B0%E5%8F%8D%E8%BD%AC"><span class="nav-number">1.3.2.</span> <span class="nav-text">光放大的条件——粒子数反转</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%89%A9%E8%B4%A8%E7%9A%84%E5%A2%9E%E7%9B%8A%E7%B3%BB%E6%95%B0%E4%B8%8E%E5%A2%9E%E7%9B%8A%E6%9B%B2%E7%BA%BF"><span class="nav-number">1.3.3.</span> <span class="nav-text">物质的增益系数与增益曲线</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%89%E7%9A%84%E8%87%AA%E6%BF%80%E6%8C%AF%E8%8D%A1"><span class="nav-number">1.4.</span> <span class="nav-text">1.4 光的自激振荡</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%87%AA%E6%BF%80%E6%8C%AF%E8%8D%A1%E7%9A%84%E6%A6%82%E5%BF%B5"><span class="nav-number">1.4.1.</span> <span class="nav-text">自激振荡的概念</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%8C%AF%E8%8D%A1%E6%9D%A1%E4%BB%B6"><span class="nav-number">1.4.2.</span> <span class="nav-text">振荡条件</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%BF%80%E5%85%89%E7%9A%84%E7%89%B9%E6%80%A7"><span class="nav-number">1.5.</span> <span class="nav-text">1.5 激光的特性</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%A9%BA%E9%97%B4%E7%9B%B8%E5%B9%B2%E6%80%A7%E5%92%8C%E6%96%B9%E5%90%91%E6%80%A7"><span class="nav-number">1.5.1.</span> <span class="nav-text">空间相干性和方向性</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%97%B6%E9%97%B4%E7%9B%B8%E5%B9%B2%E6%80%A7%E5%92%8C%E5%8D%95%E8%89%B2%E6%80%A7"><span class="nav-number">1.5.2.</span> <span class="nav-text">时间相干性和单色性</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%BF%80%E5%85%89%E7%9A%84%E9%AB%98%E4%BA%AE%E5%BA%A6%E5%BC%BA%E7%9B%B8%E5%B9%B2%E5%85%89"><span class="nav-number">1.5.3.</span> <span class="nav-text">激光的高亮度（强相干光）</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E5%BC%80%E6%94%BE%E5%BC%8F%E5%85%89%E8%85%94%E4%B8%8E%E9%AB%98%E6%96%AF%E5%85%89%E6%9D%9F"><span class="nav-number">2.</span> <span class="nav-text">第二章 开放式光腔与高斯光束</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%89%E8%85%94%E7%90%86%E8%AE%BA%E7%9A%84%E4%B8%80%E8%88%AC%E9%97%AE%E9%A2%98"><span class="nav-number">2.1.</span> <span class="nav-text">2.1 光腔理论的一般问题</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%B0%90%E6%8C%AF%E8%85%94%E7%9A%84%E5%88%86%E7%B1%BB"><span class="nav-number">2.1.1.</span> <span class="nav-text">谐振腔的分类</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%85%89%E5%AD%A6%E8%B0%90%E6%8C%AF%E8%85%94%E7%9A%84%E4%BD%9C%E7%94%A8"><span class="nav-number">2.1.2.</span> <span class="nav-text">光学谐振腔的作用</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%A8%AA%E6%A8%A1%E7%9A%84%E7%A9%BA%E9%97%B4%E5%88%86%E5%B8%83"><span class="nav-number">2.1.3.</span> <span class="nav-text">横模的空间分布</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%BA%B5%E6%A8%A1"><span class="nav-number">2.1.4.</span> <span class="nav-text">纵模</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%BA%B5%E6%A8%A1%E9%A2%91%E8%B0%B1%E5%9B%BE"><span class="nav-number">2.1.5.</span> <span class="nav-text">纵模频谱图</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%B0%90%E6%8C%AF%E8%85%94%E7%9A%84%E6%8D%9F%E8%80%97"><span class="nav-number">2.1.6.</span> <span class="nav-text">谐振腔的损耗</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%8D%9F%E8%80%97%E5%8F%82%E6%95%B0"><span class="nav-number">2.1.7.</span> <span class="nav-text">损耗参数</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%85%89%E5%AD%90%E5%9C%A8%E8%85%94%E5%86%85%E7%9A%84%E5%B9%B3%E5%9D%87%E5%AF%BF%E5%91%BD"><span class="nav-number">2.1.8.</span> <span class="nav-text">光子在腔内的平均寿命</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%97%A0%E6%BA%90%E8%B0%90%E6%8C%AF%E8%85%94%E7%9A%84%E5%93%81%E8%B4%A8%E5%9B%A0%E6%95%B0"><span class="nav-number">2.1.9.</span> <span class="nav-text">无源谐振腔的品质因数</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%8D%9F%E8%80%97%E5%8F%82%E6%95%B0%E5%B0%8F%E7%BB%93"><span class="nav-number">2.1.10.</span> <span class="nav-text">损耗参数小结</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%B1%E8%BD%B4%E7%90%83%E9%9D%A2%E8%85%94%E7%9A%84%E7%A8%B3%E5%AE%9A%E6%80%A7%E6%9D%A1%E4%BB%B6"><span class="nav-number">2.2.</span> <span class="nav-text">2.2 共轴球面腔的稳定性条件</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%B0%90%E6%8C%AF%E8%85%94%E7%BB%93%E6%9E%84"><span class="nav-number">2.2.1.</span> <span class="nav-text">谐振腔结构</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%B0%90%E6%8C%AF%E8%85%94%E7%9A%84%E5%87%A0%E4%BD%95%E5%8F%82%E6%95%B0"><span class="nav-number">2.2.2.</span> <span class="nav-text">谐振腔的几何参数</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%85%89%E7%BA%BF%E5%8F%98%E6%8D%A2%E7%9F%A9%E9%98%B5"><span class="nav-number">2.2.3.</span> <span class="nav-text">光线变换矩阵</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%A8%B3%E5%AE%9A%E6%80%A7%E6%9D%A1%E4%BB%B6"><span class="nav-number">2.2.4.</span> <span class="nav-text">稳定性条件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%A8%B3%E5%8C%BA%E5%9B%BE"><span class="nav-number">2.2.5.</span> <span class="nav-text">稳区图</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%85%B8%E5%9E%8B%E8%B0%90%E6%8C%AF%E8%85%94"><span class="nav-number">2.2.6.</span> <span class="nav-text">典型谐振腔</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E7%A8%B3%E5%AE%9A%E8%85%94"><span class="nav-number">2.2.6.1.</span> <span class="nav-text">稳定腔</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E4%B8%B4%E7%95%8C%E8%85%94"><span class="nav-number">2.2.6.2.</span> <span class="nav-text">临界腔</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%A8%B3%E5%AE%9A%E6%80%A7%E5%87%A0%E4%BD%95%E5%88%A4%E5%88%AB%E6%B3%95"><span class="nav-number">2.2.7.</span> <span class="nav-text">稳定性几何判别法</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BC%80%E8%85%94%E6%A8%A1%E5%BC%8F%E7%9A%84%E7%89%A9%E7%90%86%E6%A6%82%E5%BF%B5%E5%92%8C%E8%A1%8D%E5%B0%84%E7%90%86%E8%AE%BA"><span class="nav-number">2.3.</span> <span class="nav-text">2.3
+开腔模式的物理概念和衍射理论</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%90%86%E6%83%B3%E5%BC%80%E8%85%94%E6%A8%A1%E5%9E%8B"><span class="nav-number">2.3.1.</span> <span class="nav-text">理想开腔模型</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%88%86%E7%A6%BB%E5%8F%98%E9%87%8F%E6%B3%95"><span class="nav-number">2.3.2.</span> <span class="nav-text">分离变量法</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B9%B3%E8%A1%8C%E5%B9%B3%E9%9D%A2%E8%85%94%E6%A8%A1%E5%BC%8F%E7%9A%84%E8%BF%AD%E4%BB%A3%E8%AE%A1%E7%AE%97%E6%96%B9%E6%B3%95"><span class="nav-number">2.4.</span> <span class="nav-text">2.4
+平行平面腔模式的迭代计算方法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%B9%E5%BD%A2%E9%95%9C%E5%85%B1%E7%84%A6%E8%85%94%E7%9A%84%E8%87%AA%E5%86%8D%E7%8E%B0%E6%A8%A1"><span class="nav-number">2.5.</span> <span class="nav-text">2.5 方形镜共焦腔的自再现模</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9C%86%E5%BD%A2%E9%95%9C%E5%85%B1%E7%84%A6%E8%85%94%E7%9A%84%E8%87%AA%E5%86%8D%E7%8E%B0%E6%A8%A1"><span class="nav-number">2.6.</span> <span class="nav-text">2.6 圆形镜共焦腔的自再现模</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%B1%E7%84%A6%E8%85%94%E7%9A%84%E8%A1%8C%E6%B3%A2%E5%9C%BA"><span class="nav-number">2.7.</span> <span class="nav-text">2.7 共焦腔的行波场</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%80%E8%88%AC%E7%A8%B3%E5%AE%9A%E7%90%83%E9%9D%A2%E8%85%94%E7%9A%84%E6%A8%A1%E5%BC%8F%E7%89%B9%E5%BE%81"><span class="nav-number">2.8.</span> <span class="nav-text">2.8 一般稳定球面腔的模式特征</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%AB%98%E6%96%AF%E5%85%89%E6%9D%9F%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%80%A7%E8%B4%A8%E5%8F%8A%E7%89%B9%E5%BE%81%E5%8F%82%E6%95%B0"><span class="nav-number">2.9.</span> <span class="nav-text">2.9
+高斯光束的基本性质及特征参数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%AB%98%E6%96%AF%E5%85%89%E6%9D%9F%E7%9A%84-q-%E5%8F%82%E6%95%B0%E4%BC%A0%E8%BE%93%E8%A7%84%E5%BE%8B"><span class="nav-number">2.10.</span> <span class="nav-text">2.10 高斯光束的 \(q\) 参数传输规律</span></a></li></ol></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">SkqLiiiao</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">47</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">12</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="mailto:lan@skqliao.com" title="E-Mail → mailto:lan@skqliao.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+  </div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://skqliiiao.github.io/laster/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="SkqLiiiao">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="SkqLiiiao's Blog">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="「激光原理与技术」学习笔记 | SkqLiiiao's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          「激光原理与技术」学习笔记
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2023-02-15 13:41:46" itemprop="dateCreated datePublished" datetime="2023-02-15T13:41:46+08:00">2023-02-15</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2023-02-18 13:15:48" itemprop="dateModified" datetime="2023-02-18T13:15:48+08:00">2023-02-18</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E5%85%89%E7%94%B5/" itemprop="url" rel="index"><span itemprop="name">光电</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <p>大三上必修专业课「激光原理与技术」的学习笔记。</p>
+<span id="more"></span>
+<p><img src="https://raw.githubusercontent.com/SkqLiiiao/image/main/cd1e540bb6ddbed8eaf530f060ee701e.png" alt="cd1e540bb6ddbed8eaf530f060ee701e" style="zoom: 33%;" /></p>
+<p><img src="https://raw.githubusercontent.com/SkqLiiiao/image/main/c0e860edd8b1141af0d97522cdc30afa.png" alt="c0e860edd8b1141af0d97522cdc30afa" style="zoom: 33%;" /></p>
+<h2 id="第一章-激光的基本原理及其特性">第一章
+激光的基本原理及其特性</h2>
+<h3 id="相干性的光子描述">1.1 相干性的光子描述</h3>
+<h4 id="光子的基本性质">光子的基本性质</h4>
+<ul>
+<li>能量：<span class="math inline">\(\varepsilon = h\nu\)</span></li>
+<li>运动质量：<span
+class="math inline">\(m=\frac{\varepsilon}{c^2}=\frac{h\nu}{c^2}\)</span>，静止质量为
+<span class="math inline">\(0\)</span></li>
+<li>动量：<span
+class="math inline">\(\vec{P}=mc\vec{n_0}=\frac{h\nu}{c}\vec{n_0}=\hbar\vec{k}\)</span></li>
+<li>偏振态：两种独立的偏振态，对应光波场的两个独立偏振方向</li>
+<li>自旋：自旋量子数为整数，大量光子的集合服从玻色-爱因斯坦分布</li>
+</ul>
+<p><strong>处于<u>同一状态</u>的光子数目是没有限制的</strong>，这是光子与服从费米统计分布的粒子（电子、质子、中子等）的重要区别。</p>
+<h4 id="光波模式和光子状态晶格">光波模式和光子状态晶格</h4>
+<ul>
+<li><p>任意电磁场可看作一系列单色平面波<strong>（以波矢 <span
+class="math inline">\(k\)</span>
+的标志）</strong>的线性叠加，或一系列电磁波的<strong>本征模式</strong>的叠加</p></li>
+<li><p>每个本征模式所具有的<strong>能量/动量是量子化</strong>的，表示为基元能量
+<span class="math inline">\(h\nu_l\)</span> 或基元动量 <span
+class="math inline">\(\hbar\vec{k_l}\)</span> 的整数倍</p></li>
+<li><p>具有<strong>相同基元能量和基元动量</strong>的物质单元被称为第
+<span class="math inline">\(l\)</span> 个本征状态的光子</p></li>
+<li><p>具有<strong>相同能量和动量</strong>的光子彼此间<strong>不可区分</strong>，因而处于同一模式。每个模式内的<strong>光子数目没有限制</strong></p></li>
+</ul>
+<p>光波的模式：<strong>波动理论</strong></p>
+<ul>
+<li><strong>单色平面波</strong>：<span
+class="math inline">\(\vec{E}(r,t)=\vec{E_0}e^{i2\pi\nu
+t-i\vec{k}\vec{r}}\)</span></li>
+</ul>
+<p>光波的状态相格：<strong>粒子理论</strong></p>
+<ul>
+<li><strong>测不准关系</strong>：<span
+class="math inline">\(\Delta{x}\Delta{y}\Delta{z}\Delta{P_x}\Delta{P_y}\Delta{P_z}\approx
+h^3\)</span></li>
+</ul>
+<p>根据空腔的<strong>驻波条件</strong>：<span
+class="math inline">\(\Delta{x}=m\frac{\lambda}{2},\Delta{y}=n\frac{\lambda}{2},\Delta{z}=q\frac{\lambda}{2}\)</span>，<span
+class="math inline">\(k=\frac{2\pi}{\lambda}=\frac{2\pi\nu}{c}\)</span></p>
+<p>在<strong>波矢空间</strong>中，每个<strong>模式</strong>所占体积为：<span
+class="math inline">\(\Delta{k_x}\Delta{k_y}\Delta{k_z}=\frac{\pi^3}{\Delta{x}\Delta{y}\Delta{z}}=\frac{\pi^3}{V}\)</span></p>
+<p>在 <span
+class="math inline">\(\lvert\vec{k}\rvert\sim\lvert\vec{k}\rvert+d\lvert\vec{k}\rvert\)</span>
+区间的<strong>模式数</strong>：</p>
+<p><span class="math display">\[
+\frac{\frac{1}{2}\pi\lvert\vec{k}\rvert^2d\lvert\vec{k}\rvert}{\pi^3/V}=\frac{\lvert\vec{k}\rvert^2d\lvert\vec{k}\rvert
+V}{2\pi^2} \]</span></p>
+<p>其中 <span
+class="math inline">\(\lvert\vec{k}\rvert^2=\frac{2\pi}{\lambda}=\frac{2\pi\nu}{c},
+d\lvert\vec{k}\rvert=\frac{2\pi d\nu}{c}\)</span>。</p>
+<p>在频率 <span class="math inline">\(\nu\)</span> 附近频带 <span
+class="math inline">\(d\nu\)</span> 内的<strong>模式数</strong>：</p>
+<p><span class="math display">\[
+N_\nu=\frac{\lvert\vec{k}\rvert^2d\lvert\vec{k}\rvert
+V}{\pi^2}=\frac{8\pi\nu^2Vd\nu}{c^3} \]</span></p>
+<p>在<strong>相空间</strong>中，<strong>相格</strong>所占的体积：<span
+class="math inline">\(\Delta{x}\Delta{y}\Delta{z}=\frac{h^3}{\Delta{P_x}\Delta{P_y}\Delta{P_z}}=\frac{\pi^3}{\Delta{k_x}\Delta{k_y}\Delta{k_z}}\)</span></p>
+<p><strong><u>结论：一个光波模式在相空间中占有一个相格；光波模等效于光子态。</u></strong></p>
+<h4 id="光子的相干性">光子的相干性</h4>
+<p>光子状态 <span class="math inline">\(\to\)</span> 相干性</p>
+<ul>
+<li>相干体积 <span
+class="math inline">\(V_c=A_cL_c=A_c\tau_cc\)</span></li>
+<li>相干时间 <span
+class="math inline">\(\tau_c=\Delta{t}=\frac{L_c}{c}=\frac{1}{\Delta{\nu}}\)</span></li>
+<li>相干面积 <span
+class="math inline">\(A_c=\Delta{x}^2=(\lambda/\Delta{\theta})^2\)</span></li>
+<li>相干长度 <span
+class="math inline">\(L_c=c\tau_c=c/\Delta{\nu}\)</span></li>
+</ul>
+<p><span class="math display">\[
+V_c=A_cL_c=\frac{c^3}{\nu^2\Delta{\nu}(\Delta\theta)^2} \]</span></p>
+<p>如果要求传播方向限于 <span
+class="math inline">\(\Delta{\theta}\)</span> 之内具有频带宽度为 <span
+class="math inline">\(\Delta{\nu}\)</span>
+的光波相干，则光源应局限在空间体积 <span
+class="math inline">\(V_c\)</span> 之内。</p>
+<h4 id="光子的简并度">光子的简并度</h4>
+<p><strong>相干光强</strong>：具有相干性的光子的数目</p>
+<p><strong>光子简并度</strong> <span
+class="math inline">\(n\)</span>：处于同一光子态的光子数</p>
+<p>激光器是具有高相干光强和大相干面的强相干光源。</p>
+<h3 id="光的受激辐射基本概念">1.2 光的受激辐射基本概念</h3>
+<h4 id="黑体辐射的普朗克公式">黑体辐射的普朗克公式</h4>
+<p>在温度 <span class="math inline">\(T\)</span>
+的<strong>热平衡</strong>状态下，黑体辐射分配到腔内<strong>每个模式上的平均能量</strong>为</p>
+<p><span class="math display">\[ \bar{E} =
+\frac{h\nu}{e^{\frac{h\nu}{k_bT}}-1} \]</span></p>
+<p>其中 <span class="math inline">\(e^{\frac{h\nu}{k_bT}}\)</span>
+为玻尔兹曼常数。</p>
+<p>结合腔内单位体积单位频率内的<strong>光波模式数</strong> <span
+class="math inline">\(n_\nu=\frac{N_\nu}{Vd\nu}=\frac{8\pi\nu^2}{c^3}\)</span>，得</p>
+<p><span class="math display">\[\rho_\nu=n_\nu\bar{E}=\frac{8\pi
+h\nu^3}{c^3}\frac{1}{e^{\frac{h\nu}{k_bT}}-1}\]</span></p>
+<p>单位体积内，频率处于 <span class="math inline">\(\nu\)</span>
+附近单位频率间隔中的电磁辐射能量-<strong>单色能量密度</strong>。</p>
+<h4 id="自发辐射和受激辐射">自发辐射和受激辐射</h4>
+<p>黑体辐射，实质上是辐射场 <span
+class="math inline">\(\rho_\nu\)</span>
+和构成黑体的物质原子相互作用的结果。</p>
+<p>简化问题，只考虑原子的两个能级 <span
+class="math inline">\(E_1\)</span> 和 <span
+class="math inline">\(E_2\)</span>，其中单位体积内的原子数分别为 <span
+class="math inline">\(n_1\)</span> 和 <span
+class="math inline">\(n_2\)</span>，单色辐射场的能量密度为 <span
+class="math inline">\(\rho_{\nu}\)</span>。</p>
+<p><img src="https://raw.githubusercontent.com/SkqLiiiao/image/main/81eef61538a7f37e13f8b13d7f9de072.png" alt="81eef61538a7f37e13f8b13d7f9de072" style="zoom:50%;" /></p>
+<p>相互作用包括原子的<strong>自发辐射迁移</strong>、受激辐射迁移和<strong>受激吸收辐射</strong>三种过程。</p>
+<h4 id="自发辐射">自发辐射</h4>
+<p>处于高能级 <span class="math inline">\(E_2\)</span>
+的一个原子自发地向 <span class="math inline">\(E_1\)</span>
+跃迁，并发射一个能量为 <span class="math inline">\(h\nu\)</span>
+的光子，该过程称为<strong>自发跃迁</strong>。</p>
+<p>由原子自发跃迁发出的光成为<strong>自发辐射</strong>。</p>
+<p><img src="https://raw.githubusercontent.com/SkqLiiiao/image/main/4730a5cc5b6b2d177956c4217fcabda1.png" alt="4730a5cc5b6b2d177956c4217fcabda1" style="zoom: 50%;" /></p>
+<p>用<strong>自发辐射几率</strong> <span
+class="math inline">\(A_{21}\)</span> 描述，定义为单位时间内 <span
+class="math inline">\(n_2\)</span> 个高能态原子中发生自发跃迁的原子数
+<span class="math inline">\(n_{21}\)</span> 和 <span
+class="math inline">\(n_2\)</span> 的比值。</p>
+<p><span class="math display">\[
+A_{21}=(\frac{dn_{21}}{dt})_{sp}\frac{1}{n_2} \]</span></p>
+<p><span class="math inline">\((dn_{21})_{sp}\)</span>
+表示用于自发跃迁引起的由高能级 <span class="math inline">\(E_2\)</span>
+向低能级 <span class="math inline">\(E_1\)</span> 跃迁的原子数。</p>
+<p><strong><span class="math inline">\(A_{21}\)</span> 就是原子在能级
+<span class="math inline">\(E_2\)</span> 的平均寿命 <span
+class="math inline">\(\tau_s\)</span> 的倒数。</strong></p>
+<p><span class="math display">\[ \frac{dn_2}{dt} =
+-(\frac{dn_{21}}{dt})_{sp}=-A_{21}n_2\]</span></p>
+<p><span class="math display">\[ \Rightarrow
+n_2=n_{20}e^{-A_{21}t}=n_{20}e^{-t/\tau_s} \]</span></p>
+<p><span class="math inline">\(\tau_s\)</span>
+：原子在上能级的平均寿命。</p>
+<p><span class="math display">\[ A_{21} = \frac{1}{\tau_s} \]</span></p>
+<p><span class="math inline">\(A_{21}\)</span>
+：<strong>自发辐射爱因斯坦系数</strong>，只与原子性质有关。</p>
+<p><strong>特点：</strong></p>
+<ul>
+<li>自发辐射<strong>与外界辐射场无关</strong>，是一种<strong>仅与原子本身性质有关</strong>的自发过程，用
+<span class="math inline">\(A_{21}\)</span> 描述</li>
+<li>一个粒子自发跃迁，只能产生<strong>一个光子</strong> （能量为 <span
+class="math inline">\(E_2-E_1=h\nu\)</span>）</li>
+<li>每个原子的跃迁是独立的、偶然的，自发辐射光子的位相、偏振态、传播方向都是随机的、<strong>非相干的</strong></li>
+</ul>
+<h4 id="受激辐射">受激辐射</h4>
+<p>处于高能级 <span class="math inline">\(E_2\)</span> 的原子在频率为
+<span class="math inline">\(\nu\)</span> 的辐射场作用下，跃迁至低能级
+<span class="math inline">\(E_1\)</span>，并辐射出一个能量为 <span
+class="math inline">\(h\nu\)</span>
+的光子，该过程称为<strong>受激跃迁</strong>。</p>
+<p>由原子受激发射跃迁发出的光波称为<strong>受激辐射</strong>。</p>
+<p><img src="https://raw.githubusercontent.com/SkqLiiiao/image/main/83b7c8835a18abb7018371b4535680fb.png" alt="83b7c8835a18abb7018371b4535680fb" style="zoom:50%;" /></p>
+<p>出射光子与入射光子具有<strong>相同的频率、传播方向、位相、偏振态</strong>，即出射场具有<strong>相干性</strong>。</p>
+<p>受激辐射跃迁几率：<span
+class="math display">\[W_{21}={(\frac{dn_{21}}{dt})}_{st}\frac{1}{n_2}\]</span>，不仅与原子性质相关，还与辐射场的
+<span class="math inline">\(\rho_{\nu}\)</span>
+（外来光子密度）成正比。</p>
+<p><span class="math inline">\(W_{21}=B_{21}\rho_\nu\)</span></p>
+<p><span
+class="math inline">\(B_{21}\)</span>：<strong>受激辐射跃迁爱因斯坦系数</strong>，只与原子性质有关。</p>
+<h4 id="受激吸收">受激吸收</h4>
+<p>处于低能级 <span class="math inline">\(E_1\)</span>
+的一个原子，在频率为 <span class="math inline">\(\nu\)</span>
+的辐射场作用下，吸收—个能量为 <span class="math inline">\(h\nu\)</span>
+的光子并向 <span class="math inline">\(E_2\)</span>
+跃迁，该过程称为<strong>受激吸收跃迁</strong>。</p>
+<p>用<strong>受激吸收几率</strong> <span
+class="math inline">\(W_{21}\)</span>
+描述。是<strong>受激发射</strong>的逆过程。</p>
+<p><img src="https://raw.githubusercontent.com/SkqLiiiao/image/main/e119ab01993b789f30955f48194a8be4.png" alt="e119ab01993b789f30955f48194a8be4" style="zoom:50%;" /></p>
+<p>受激吸收跃迁几率：<span
+class="math display">\[W_{12}={(\frac{dn_{12}}{dt})}_{st}\frac{1}{n_1}\]</span>，不仅与原子性质相关，还与辐射场的
+<span class="math inline">\(\rho_{\nu}\)</span>
+（外来光子密度）成正比。</p>
+<p><span class="math inline">\(W_{12}=B_{12}\rho_\nu\)</span></p>
+<p><span
+class="math inline">\(B_{12}\)</span>：<strong>受激吸收跃迁爱因斯坦系数</strong>，只与原子性质有关。</p>
+<h4 id="a_21b_21b_12-的相互关系"><span
+class="math inline">\(A_{21},B_{21},B_{12}\)</span> 的相互关系</h4>
+<p>空腔黑体的热平衡，表示为腔内黑体辐射场 <span
+class="math inline">\(\rho_{\nu}\)</span>
+与物质原子相互作用使黑体处于温度为 <span
+class="math inline">\(T\)</span> 的热平衡状态。</p>
+<ul>
+<li>腔内的热平衡黑体辐射</li>
+</ul>
+<p><span class="math display">\[\rho_\nu=n_\nu\bar{E}=\frac{8\pi
+h\nu^3}{c^3}\frac{1}{e^{\frac{h\nu}{k_bT}}-1}\]</span></p>
+<ul>
+<li>腔内物质原子数服从热平衡状态下的玻尔兹曼分布</li>
+</ul>
+<p><span
+class="math display">\[\frac{n_2}{n_1}=\frac{f_2}{f_1}e^{-\frac{h\nu}{k_bT}}\]</span></p>
+<ul>
+<li>物质处于平衡状态，<span class="math inline">\(n_2\)</span> 或 <span
+class="math inline">\(n_1\)</span> 保持不变</li>
+</ul>
+<p><span class="math display">\[
+(\frac{dn_{21}}{d_t})_{sp}+(\frac{dn_{21}}{d_t})_{st}=(\frac{dn_{12}}{d_t})_{st}\]</span></p>
+<p><span
+class="math display">\[n_2A_{21}+n_2B_{21}\rho_{\nu}=n_1B_{12}\rho_{\nu}\]</span></p>
+<p><span class="math inline">\(\frac{1}{\rho_{\nu}}\to 0\)</span>
+，<span class="math inline">\(\frac{1}{\rho_{\nu}}=\frac{c^3}{8\pi
+h\nu^3}(e^{\frac{h\nu}{k_bT}}-1)=\frac{B_{21}}{A_{21}}(\frac{B_{12}f_1}{B_{21}f_2}e^{\frac{h\nu}{k_bT}}-1)\)</span></p>
+<p>当 <span class="math inline">\(T\to \infty\)</span> 时也成立，所以有
+<span class="math inline">\(B_{12}f_1=B_{21}f_2\)</span> 。</p>
+<p><span class="math display">\[ \frac{A_{21}}{B_{21}}=\frac{8\pi
+h\nu^3}{c^3}=n_{\nu} \]</span></p>
+<p>当 <span class="math inline">\(f_1=f_2\)</span> 时，<span
+class="math inline">\(B_{12}=B_{21},W_{12}=W_{21}\)</span></p>
+<h3 id="光的受激辐射放大">1.3 光的受激辐射放大</h3>
+<h4 id="光放大概念的产生">光放大概念的产生</h4>
+<p>普通光源的相干强度，以黑体辐射源为例，其光子简并度为</p>
+<p><span class="math display">\[
+\bar{n}=\frac{E}{h\nu}=\frac{1}{e^{\frac{h\nu}{k_bT}}-1}\]</span></p>
+<p>当 <span class="math inline">\(T=300\)</span>K，<span
+class="math inline">\(\lambda=600\)</span>nm的红光，<span
+class="math inline">\(\bar{n}\approx10^{-35}\)</span> <span
+class="math inline">\(\Rightarrow\)</span>
+<strong>黑体是完全非相干光源</strong></p>
+<p>若要在 <span class="math inline">\(\lambda=1000\)</span>nm使得 <span
+class="math inline">\(\bar{n}=1\)</span>，则 <span
+class="math inline">\(T=50000\)</span>K。</p>
+<p><strong>结论：普通光源在可见光和红外波段是非相干光源。</strong></p>
+<p>辐射源的光子简并度表示为</p>
+<p><span class="math display">\[ \bar{n}=\frac{\rho_\nu}{n_\nu
+h\nu}=\frac{\rho_\nu}{8\pi
+h\nu^3/c^3}=\frac{B_{21}\rho_\nu}{A_{21}}=\frac{W_{21}}{A_{21}}\]</span></p>
+<p><img src="https://raw.githubusercontent.com/SkqLiiiao/image/main/bd91865c87e3913a2c9b3c18b08d6e0e.png" alt="bd91865c87e3913a2c9b3c18b08d6e0e" style="zoom:50%;" /></p>
+<p>激光器的基本思想：</p>
+<ul>
+<li>模式的选择——<strong>开放</strong>的谐振腔</li>
+<li>单模电磁场的放大——<strong>原子中受束缚电子</strong>的受激辐射</li>
+</ul>
+<h4 id="光放大的条件粒子数反转">光放大的条件——粒子数反转</h4>
+<p>物质处于热平衡状态时，原子服从玻尔兹曼分布：</p>
+<p><span
+class="math display">\[\frac{n_2}{n_1}=\frac{f_2}{f_1}e^{-\frac{E_2-E_1}{k_bT}}\]</span></p>
+<p>由于 <span class="math inline">\(E_2&gt;E_1\)</span>，所以 <span
+class="math inline">\(n_2&lt;n_1(f_1=f_2)\)</span>，高能级的粒子数小于低能级的粒子数。</p>
+<p>当 <span class="math inline">\(\nu=\frac{E_2-E_1}{\nu}\)</span>
+的光通过物质时，<span
+class="math inline">\(n_1W_{12}&gt;n_2W_{21}\)</span>，入射光被吸收
+<span class="math inline">\(\Rightarrow\)</span>
+<strong>热平衡状态下的物质无法使入射光放大</strong>。</p>
+<p>要实现光放大，需要满足 <span
+class="math inline">\(n_2&gt;n_1\)</span>，即<strong>粒子数反转</strong>。</p>
+<p>只有当物质受到外界激励处于非平衡状态时，才能实现粒子数反转 <span
+class="math inline">\(\Rightarrow\)</span>
+<strong>激励（泵浦）过程</strong>是光放大的必要条件。</p>
+<h4 id="物质的增益系数与增益曲线">物质的增益系数与增益曲线</h4>
+<p>激活物质：<strong>处于粒子数反转状态的物质</strong>。</p>
+<p><img src="https://raw.githubusercontent.com/SkqLiiiao/image/main/e29895c390e458f5c2f7648058cfc0a8.png" alt="e29895c390e458f5c2f7648058cfc0a8" style="zoom:50%;" /></p>
+<p>选择具有<strong>亚稳态能级结构</strong>的物质作为增益介质。</p>
+<p><strong>增益系数 <span
+class="math inline">\(g\)</span></strong>：描述放大作用的大小。定义为通过单位长度激活物质，光强增长的比例系数。</p>
+<p><span class="math display">\[ g =
+\frac{dI(z)}{dz}\frac{1}{I(z)}\]</span></p>
+<p><span class="math inline">\(dI(z)\)</span>
+正比于单位体积增益介质的<strong>净受激发射光子数</strong>：</p>
+<p><span class="math display">\[
+\begin{aligned}
+dI(z)&amp;\propto [W_{21}n_2(z)-W_{12}n_1(z)]dz\\
+&amp;\propto B_{21}h\nu \rho(z)[n_2(z)-n_1(z)]dz\\
+&amp;\propto B_{21}h\nu I(z)[n_2(z)-n_1(z)]dz
+\end{aligned}
+\]</span></p>
+<p>联立得</p>
+<p><span class="math display">\[g=\frac{dI(z)}{dz}\frac{1}{I(z)}\propto
+B_{21}h\nu[n_2(z)-n_1(z)]\]</span></p>
+<ul>
+<li>当 <span class="math inline">\(n_2-n_1\)</span> 不随 <span
+class="math inline">\(z\)</span> 变化，增益系数 <span
+class="math inline">\(g\)</span> 为常数</li>
+</ul>
+<p><strong>小信号增益</strong></p>
+<p><span
+class="math inline">\(g=g^0=\frac{dI(z)}{dz}\frac{1}{I(z)}\propto
+B_{21}h\nu[n_2^0-n_1^0]\)</span>，<span
+class="math inline">\(n_2-n_1=n_2^0-n_1^0\)</span></p>
+<p><span class="math display">\[I(z)=I_0e^{g^0z}\]</span></p>
+<p><span class="math inline">\(I_0\)</span>：初始光强</p>
+<p><img src="https://raw.githubusercontent.com/SkqLiiiao/image/main/b9330d0f92df2d51a07e21010445ade7.png" alt="b9330d0f92df2d51a07e21010445ade7" style="zoom:50%;" /></p>
+<ul>
+<li>实际光强增长是以反转粒子数减少为代价的。因此，随着光强的增长，<span
+class="math inline">\(n_2-n_1\)</span> 随 <span
+class="math inline">\(z\)</span> 增加而减少，增益 <span
+class="math inline">\(g\)</span> 也随 <span
+class="math inline">\(z\)</span> 增加而减少。</li>
+</ul>
+<p><strong>大信号增益</strong></p>
+<p><span class="math display">\[
+n_2-n_1=\frac{n_2^0-n_1^0}{1+I/I_s}\]</span></p>
+<p><span class="math inline">\(I_s\)</span> ：饱和光强</p>
+<p><span class="math display">\[g(I)\propto
+B_{21}h\nu\frac{n_2^0-n_1^0}{1+I/I_s}=\frac{g^0}{1+I/I_s}\]</span></p>
+<p><img src="https://raw.githubusercontent.com/SkqLiiiao/image/main/dcaff0f8810bcc2fb18388c779bbf770.png" alt="dcaff0f8810bcc2fb18388c779bbf770" style="zoom:50%;" /></p>
+<p>增益系数是光波频率 <span class="math inline">\(\nu\)</span>
+的函数：<span class="math inline">\(g(\nu,I)\)</span>。</p>
+<p>增益曲线通常具有一定的宽度 <span
+class="math inline">\(\Delta\nu\)</span>。</p>
+<p><img src="https://raw.githubusercontent.com/SkqLiiiao/image/main/b86ca06884b9ee69a914406cde06fde8.png" alt="b86ca06884b9ee69a914406cde06fde8" style="zoom:50%;" /></p>
+<p><strong>中心频率</strong> <span
+class="math inline">\(\nu_0=\frac{E_2-E_1}{h}\)</span>。</p>
+<h3 id="光的自激振荡">1.4 光的自激振荡</h3>
+<h4 id="自激振荡的概念">自激振荡的概念</h4>
+<p>自激振荡——激光器都是自激振荡器。</p>
+<p><strong>损耗系数 <span
+class="math inline">\(\alpha\)</span></strong>：描述损耗的大小。定义为通过单位长度激活物质，光强衰减的比例系数。</p>
+<p><span
+class="math display">\[\alpha=-\frac{dI(z)}{dz}\frac{1}{I(z)}\]</span></p>
+<p>同时考虑增益和损耗时</p>
+<p><span class="math display">\[dI(z)=[g(I)-\alpha]I(z)d(z)\]</span></p>
+<p><span class="math display">\[\Rightarrow
+I(z)=I_0e^{[g(I)-\alpha]z}\]</span></p>
+<p>当 <span
+class="math inline">\(g(I)=\frac{g^0}{1+I/I_s}=\alpha\)</span> 时，<span
+class="math inline">\(I(z)\)</span> 达到稳定极值</p>
+<p><span
+class="math display">\[I_m=\frac{(g^0-\alpha)I_s}{\alpha}\]</span></p>
+<p><span class="math inline">\(I_m\)</span>
+只与放大器本身参数有关，<strong>与初始光强无关</strong>。</p>
+<p><strong>光学谐振腔</strong>：两块反射镜相互严格平行，且垂直于工作物质轴线。轴向光波往返传播，等效于增加放大器长度。</p>
+<p>将放大器置于其中，增加了光的反馈，频率为 <span
+class="math inline">\(\nu_0\)</span>
+的自发辐射光信号经过多次受激辐射放大，就可能在轴向上产生某些模式光的自激振荡。</p>
+<p><strong>激光器的构成</strong>：光放大器（受泵浦的增益物质）和光学谐振腔。</p>
+<p><strong>光学谐振腔的作用</strong>：</p>
+<ul>
+<li>增加增益介质的长度，提高光强；</li>
+</ul>
+<p><span class="math display">\[\rho_\nu\propto \exp(gz)\]</span></p>
+<ul>
+<li>模式选择；减少光波模式，提高光子简并度，提高相关性；</li>
+<li>提供轴向光波模的反馈。</li>
+</ul>
+<h4 id="振荡条件">振荡条件</h4>
+<p><strong>激光器的振荡条件</strong>：<span
+class="math inline">\(I_m=\frac{(g^0-\alpha)I_s}{\alpha}&gt;0
+\Rightarrow g^0\geq \alpha\)</span>，<strong>振荡阈值</strong></p>
+<ul>
+<li><span class="math inline">\(g^0\)</span>
+：激活介质（放大器）的<strong>小信号增益系数</strong></li>
+<li><span class="math inline">\(\alpha\)</span>
+：包括放大器损耗和谐振腔损耗在内的<strong>平均损耗系数</strong></li>
+</ul>
+<p><strong>工作物质的增益系数和光强的损耗特性是激光基本原理的核心内容。</strong></p>
+<p>当工作物质长度为 <span class="math inline">\(l\)</span>，光腔长度为
+<span
+class="math inline">\(L\)</span>，<strong>单程小信号增益</strong>表示为
+<span
+class="math inline">\(G^0=g_0l\)</span>，而<strong>光腔单程损耗因子</strong>表示为
+<span class="math inline">\(\delta=\alpha
+L\)</span>，则振荡阈值表示为</p>
+<p><span class="math display">\[G^0\geq \delta\]</span></p>
+<h3 id="激光的特性">1.5 激光的特性</h3>
+<ul>
+<li>单色性好（应用：光尺、激光测速）</li>
+<li>相干性好（应用：光信息处理）</li>
+<li>方向性好（应用：测距、定向、雷达）</li>
+<li>亮度高（应用：工业加工、激光手术、激光武器）</li>
+</ul>
+<p>激光的这些特性正是由于受激辐射的本性和<strong>光腔</strong>的选模作用。</p>
+<h4 id="空间相干性和方向性">空间相干性和方向性</h4>
+<p>TEM：transverse electromagnetic wave</p>
+<p><strong>光腔模式 <span
+class="math inline">\(\text{TEM}_{mn}\)</span></strong>：纵模和横模</p>
+<ul>
+<li>纵模：光腔模式的纵向光场分布（谐振腔光轴方向）</li>
+<li>横模：光腔模式的横向光场分布</li>
+</ul>
+<p>激光的空间相干性和方向性均与激光的横模有光。</p>
+<p>单横模 <span class="math inline">\(\text{TEM}_{00}\)</span>
+具有最好的空间相干性和方向性。多横模的空间相干程度减小，方向性变差。</p>
+<p><strong>激光的方向性越好，空间相干性越好。</strong></p>
+<p>提高激光的空间相干性和方向性，应使激光器运转于单横模，并通过谐振腔设计减少光束的发散角。</p>
+<p>激光的<strong>最小发散角</strong>，受衍射效应限制：<span
+class="math inline">\(\theta_m\approx\frac{\lambda}{2a}\)</span>。</p>
+<p>单一束激光被焦距与 <span class="math inline">\(F\)</span>
+的透镜焦距时，<strong>焦点尺寸</strong>为：<span
+class="math inline">\(D=F\theta=F\theta_m\approx\frac{F\lambda}{2a}\)</span></p>
+<h4 id="时间相干性和单色性">时间相干性和单色性</h4>
+<p>激光的相干时间和单色性关系：<span
+class="math inline">\(\tau_c=\frac{1}{\Delta\nu}\)</span>。</p>
+<p><strong>单色性越高，相干时间越长。</strong>对于单横模 <span
+class="math inline">\(\text{TEM}_{00}\)</span>
+激光器，单色性取决于<strong>纵模结构</strong>。</p>
+<p>单纵模激光器的谱线很窄，具有最高的单色性。</p>
+<p>激光器的<strong>选模技术</strong>和<strong>稳频技术</strong>对提高相干性十分重要。</p>
+<p>一台稳定的 <span class="math inline">\(\text{TEM}_{00}\)</span>
+单纵模激光器发出的激光接近于理想的单色平面波，即完全相干光。</p>
+<h4 id="激光的高亮度强相干光">激光的高亮度（强相干光）</h4>
+<p><strong>亮度 <span
+class="math inline">\(B\)</span></strong>：单位截面、单位立体角内发射的光功率</p>
+<p><span
+class="math display">\[B=\frac{P}{\Delta{s}\Delta{\Omega}}\]</span></p>
+<p><strong>单色亮度 <span
+class="math inline">\(B_\nu\)</span></strong>：单位频率范围内、单位截面、单位立体角内发射的光功率</p>
+<p><span
+class="math display">\[B_\nu=\frac{P}{\Delta{s}\Delta{\Omega}\Delta{\nu}}=\frac{P}{A(\pi\theta_0^2)\Delta{\nu_s}}\]</span></p>
+<p><span class="math inline">\(P\)</span> 为激光器的输出功率，<span
+class="math inline">\(A\)</span> 为激光束截面积，<span
+class="math inline">\(\theta_0\)</span>为基横模的远场发散角，<span
+class="math inline">\(\Delta{\nu_s}\)</span> 为激光谱线宽度。</p>
+<p><span
+class="math inline">\(\Delta{\nu_s}=\frac{1}{2\pi\tau_R}\)</span>，<span
+class="math inline">\(\tau_R\)</span> 为腔内的光子寿命 <span
+class="math inline">\(\Rightarrow
+\bar{n}=\frac{P\tau_R}{2h\nu}=\frac{P}{2h\nu\Delta{\nu_s}}\)</span></p>
+<p><span class="math inline">\(A\theta_0^2=\lambda^2\)</span>，基横模
+<span class="math inline">\(\Rightarrow
+B_\nu=\frac{2h\nu}{\lambda^2}\bar{n}\)</span></p>
+<p><strong>激光的单色亮度正比于光子简并度。</strong></p>
+<h2 id="第二章-开放式光腔与高斯光束">第二章 开放式光腔与高斯光束</h2>
+<h3 id="光腔理论的一般问题">2.1 光腔理论的一般问题</h3>
+<p>光学谐振腔的构成：激活物质和至少两个反射镜/面。</p>
+<p><img src="https://raw.githubusercontent.com/SkqLiiiao/image/main/64261ca7749515eb7a95baf162c02278.png" alt="64261ca7749515eb7a95baf162c02278" style="zoom: 33%;" /></p>
+<h4 id="谐振腔的分类">谐振腔的分类</h4>
+<p><img src="https://raw.githubusercontent.com/SkqLiiiao/image/main/61bfae1645b003b46bae771a05824098.png" alt="61bfae1645b003b46bae771a05824098" style="zoom:50%;" /></p>
+<p>理论上分析这类腔的时候，认为侧面没有光学边界，因此也被称为开放式光学谐振腔，简称<strong>开腔</strong>。</p>
+<p><strong>开腔</strong>——侧面对光没有约束</p>
+<ul>
+<li>稳定腔</li>
+<li>非稳定腔</li>
+<li>临界腔</li>
+</ul>
+<p><strong>闭腔</strong>——侧面对光有约束</p>
+<ul>
+<li>固体激光器的激光材料折射率高，侧壁抛光后，与轴线夹角不大的光线会发生全反射</li>
+<li>波导谐振腔</li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/SkqLiiiao/image/main/f1658a696c55a660c95a00e51b43147e.png" alt="f1658a696c55a660c95a00e51b43147e" style="zoom:33%;" /></p>
+<h4 id="光学谐振腔的作用">光学谐振腔的作用</h4>
+<ul>
+<li>提供轴向光波模的<strong>正反馈</strong></li>
+<li><strong>振荡模式</strong>的选择</li>
+</ul>
+<p>有效地控制腔内实际振荡的模式数，使大量光子集中在少数几个模式内（少数光子态上），<strong>提高光子简并度</strong></p>
+<ul>
+<li>可直接控制激光束的<strong>横向分布特性</strong>、光斑大小、光束发散角等</li>
+<li>可改变腔内光束的损耗，在增益一定的情况喜爱控制激光束的输出功率</li>
+</ul>
+<h4 id="横模的空间分布">横模的空间分布</h4>
+<p><img src="https://raw.githubusercontent.com/SkqLiiiao/image/main/b79108d5f8e2aa9a60dd4e9b80a57a7f.png" alt="b79108d5f8e2aa9a60dd4e9b80a57a7f" style="zoom:33%;" /></p>
+<h4 id="纵模">纵模</h4>
+<p>纵模：腔内的纵向（沿腔轴方向）稳定场分布。</p>
+<p>相干干涉条件 <span
+class="math inline">\(\Delta\varphi=\frac{2\pi}{\lambda_q}\cdot
+2L&#39;=q\cdot 2\pi\)</span>。</p>
+<p>其中 <span class="math inline">\(\lambda_q\)</span>
+为光在真空中的波长，<span class="math inline">\(L&#39;\)</span>
+为腔的光学长度，<span class="math inline">\(q\)</span> 为正整数。</p>
+<p><img src="https://raw.githubusercontent.com/SkqLiiiao/image/main/image-20230215110032126.png" alt="image-20230215110032126" style="zoom:33%;" /></p>
+<p>能在腔内形成稳定振荡的光波长为<strong>腔的谐振波长</strong>：</p>
+<p><span class="math display">\[\lambda_q=\frac{2L&#39;}{q}\]</span></p>
+<p>能在腔内形成稳定振荡的光频率为<strong>腔的谐振频率</strong>：</p>
+<p><span
+class="math display">\[\nu_q=q\cdot\frac{c}{2L&#39;}\]</span></p>
+<p><strong>将整数 <span class="math inline">\(q\)</span>
+所表征的腔内纵向场分布成为腔的纵模。</strong></p>
+<h4 id="纵模频谱图">纵模频谱图</h4>
+<p><img src="https://raw.githubusercontent.com/SkqLiiiao/image/main/d1512264f0a4d6024bf906d7f397023d.png" alt="d1512264f0a4d6024bf906d7f397023d" style="zoom:33%;" /></p>
+<p>腔的相邻两个纵模的频率之差为</p>
+<p><span
+class="math display">\[\Delta\nu_q=\nu_{q+1}-\nu_q=\frac{c}{2L&#39;}\]</span></p>
+<p><span class="math inline">\(\Delta\nu_q\)</span>
+称为<strong>纵模间隔</strong>，与 <span class="math inline">\(q\)</span>
+无关。</p>
+<h4 id="谐振腔的损耗">谐振腔的损耗</h4>
+<p>损耗类型：</p>
+<ul>
+<li>几何偏折损耗</li>
+<li>衍射损耗</li>
+<li>腔镜反射不完全引起的损耗</li>
+<li>固有损耗</li>
+</ul>
+<p>后两种损耗称为<strong>非选择损耗</strong>，通常情况下它们对各个模式大体相同。</p>
+<p>前两种损耗称为<strong>选择损耗</strong>，不同模式下各不相同。</p>
+<h4 id="损耗参数">损耗参数</h4>
+<p><strong>平均单程损耗因子 <span
+class="math inline">\(\delta\)</span></strong></p>
+<p>如果初始光强为 <span
+class="math inline">\(I_0\)</span>，在无源腔内往返一周后光强衰减为 <span
+class="math inline">\(I_1\)</span>，则</p>
+<p><span
+class="math display">\[I_1=I_0\exp(-2\delta)\Rightarrow\delta=\frac{1}{2}\ln\frac{I_0}{I_1}\]</span></p>
+<p>如果各种因素引起的单程损耗因子用 <span
+class="math inline">\(\delta_i\)</span> 表示，则总的单程损耗是 <span
+class="math inline">\(\delta=\sum\delta_i\)</span>。</p>
+<p>光子在腔内的平均寿命和线宽 <span
+class="math inline">\(\Delta\nu_c\)</span></p>
+<p>取 <span class="math inline">\(t=0\)</span> 时刻的光强 <span
+class="math inline">\(I_0\)</span> 为初始光腔，到 <span
+class="math inline">\(t\)</span> 时刻为止在腔内往返 <span
+class="math inline">\(m\)</span> 次。</p>
+<p><span class="math inline">\(I_m=I_0\exp(-2\delta m)\)</span>，<span
+class="math inline">\(m=t/(\frac{2L&#39;}{c})\)</span></p>
+<p>则 <span
+class="math inline">\(I_m=I_0\exp(-\frac{t}{\tau_R})\)</span>，<span
+class="math inline">\(\tau_R=\frac{L&#39;}{\delta c}\)</span>，<span
+class="math inline">\(\tau_R\)</span>
+为<strong>腔的时间常数</strong>。</p>
+<p>由于腔内存在损耗，光场不再为简谐运动，而是振幅随时间指数衰减的<strong>阻尼振荡</strong>，其强度按频率的分布有一宽度
+<span
+class="math inline">\(\Delta{\nu_c}=\frac{1}{2\pi\tau_R}\)</span>。</p>
+<h4 id="光子在腔内的平均寿命">光子在腔内的平均寿命</h4>
+<p>设 <span class="math inline">\(t\)</span> 时刻腔内光子数密度为 <span
+class="math inline">\(N(t)\)</span>，<span
+class="math inline">\(N_0\)</span> 表示 <span
+class="math inline">\(t=0\)</span> 时刻光子数密度。</p>
+<p><span class="math inline">\(I(t)=N(t)h\nu v\)</span> 联立 <span
+class="math inline">\(N(t)=N_0\exp(-\frac{t}{\tau_R})\)</span>，得 <span
+class="math inline">\(-dN=\frac{N_0}{\tau_R}\exp(-\frac{t}{\tau_R})dt\)</span>。</p>
+<p>光子的平均寿命 <span
+class="math inline">\(\bar{t}=\frac{1}{N_0}\int_{0}^{\infty}{t\cdot(-dN)}=\frac{1}{\tau_R}\int_{0}^{\infty}{t\cdot\exp(-\frac{t}{\tau_R})}dt
+\Rightarrow \bar{t} = \tau_R\)</span></p>
+<p><strong>腔内光子的平均寿命就是腔的时间常数</strong>。</p>
+<h4 id="无源谐振腔的品质因数">无源谐振腔的品质因数</h4>
+<p><span
+class="math display">\[Q=2\pi\nu\frac{\varepsilon}{P}\]</span></p>
+<p><span class="math inline">\(\varepsilon\)</span>
+：存储在腔内的总能量，<span
+class="math inline">\(P\)</span>：单位时间内损耗的能量。</p>
+<p><span class="math display">\[
+\left.
+\begin{aligned}
+\varepsilon &amp;= Nh\nu V\\
+P&amp;=-\frac{d\varepsilon}{dt}=-h\nu V\frac{dN}{dt}\\
+N(t)&amp;=N_0\exp(-\frac{t}{\tau_R})
+\end{aligned}
+\right\}\ Q= 2\pi\nu\tau_R
+\]</span></p>
+<p><strong>腔的品质因数表示光腔的储能和损耗特性</strong>。 <span
+class="math inline">\(Q\)</span>
+值大，表示光腔的储能好、损耗小、腔内光子寿命长。</p>
+<h4 id="损耗参数小结">损耗参数小结</h4>
+<ul>
+<li>平均单程损耗因子 <span class="math inline">\(\delta\)</span></li>
+<li>光子在腔内的平均寿命 <span class="math inline">\(\tau_R\)</span>
+和模式线宽 <span class="math inline">\(\Delta\nu_c\)</span></li>
+<li>无源谐振腔的品质因数 <span class="math inline">\(Q\)</span></li>
+</ul>
+<p><span
+class="math display">\[Q=2\pi\nu\tau_R=\frac{\nu}{\Delta\nu_c}=2\pi\nu\cdot\frac{L&#39;}{\delta
+c}\]</span></p>
+<p><span class="math display">\[\delta=\frac{2\pi\nu L&#39;}{Qc},
+\Delta\nu_c=\frac{1}{2\pi\tau_R}=\frac{\delta c}{2\pi L&#39;},
+\tau_R=\frac{L&#39;}{\delta c}\]</span></p>
+<h3 id="共轴球面腔的稳定性条件">2.2 共轴球面腔的稳定性条件</h3>
+<h4 id="谐振腔结构">谐振腔结构</h4>
+<p>由两个球面反射镜组成共轴系统，两镜面的轴线重合。</p>
+<h4 id="谐振腔的几何参数">谐振腔的几何参数</h4>
+<ul>
+<li>RL参数：<span
+class="math inline">\(R_1,R_2\)</span>：两镜面曲率半径，<span
+class="math inline">\(L\)</span>：腔长</li>
+<li>g参数：<span
+class="math inline">\(g_1=1-\frac{L}{R_1},g_2=1-\frac{L}{R_2}\)</span></li>
+</ul>
+<h4 id="光线变换矩阵">光线变换矩阵</h4>
+<p><strong>光线坐标矩阵</strong> <span
+class="math display">\[\begin{pmatrix}r\\\theta\end{pmatrix}\]</span></p>
+<p><span
+class="math inline">\(r\)</span>：光线位置到轴线距离（轴线上方为正）</p>
+<p><span
+class="math inline">\(\theta\)</span>：光线方向与轴线方向（水平）所夹锐角（向上传播为正）</p>
+<p><img src="https://raw.githubusercontent.com/SkqLiiiao/image/main/image-20230215113313949.png" alt="image-20230215113313949" style="zoom:33%;" /></p>
+<p>定义 <span
+class="math display">\[\begin{pmatrix}r_2\\\theta_2\end{pmatrix}=T\begin{pmatrix}r_1\\\theta_1\end{pmatrix}\]</span>，<span
+class="math display">\[T=\begin{pmatrix}A&amp;B\\
+C&amp;D\end{pmatrix}\]</span> 为<strong>光线变换矩阵</strong>。</p>
+<p><span
+class="math display">\[\begin{pmatrix}r_2\\\theta_2\end{pmatrix}\]</span>：输出面光线坐标矩阵</p>
+<p><span
+class="math display">\[\begin{pmatrix}r_1\\\theta_1\end{pmatrix}\]</span>：输入面光线坐标矩阵</p>
+<p><img src="https://raw.githubusercontent.com/SkqLiiiao/image/main/image-20230215113455799.png" alt="image-20230215113455799" style="zoom:33%;" /></p>
+<p>在腔内往返 <span class="math inline">\(n\)</span> 周：</p>
+<p><span
+class="math display">\[T_n=T^n=\begin{pmatrix}\frac{A\sin{n\varphi}-\sin(n-1)\varphi}{\sin\varphi}&amp;\frac{B\sin
+n\varphi}{\sin{\varphi}}\\ \frac{C\sin
+n\varphi}{\sin{\varphi}}&amp;\frac{D\sin{n\varphi}-\sin(n-1)\varphi}{\sin\varphi}\end{pmatrix}\]</span></p>
+<h4 id="稳定性条件">稳定性条件</h4>
+<p><strong>物理上</strong>：镜面上任意点发出的近轴光线，往返无限次而不溢出</p>
+<p><strong>数学上</strong>：<span class="math inline">\(T_n\)</span>
+各元素当 <span class="math inline">\(T\to \infty\)</span>
+时，保持有界</p>
+<p><span class="math display">\[-1&lt;\frac{1}{2}(A+D)&lt;1 \Rightarrow
+0&lt;g_1g_2&lt;1\]</span></p>
+<p>稳定腔：<span class="math inline">\(0&lt;g_1g_2&lt;1\)</span></p>
+<p>临界腔：<span class="math inline">\(g_1g_2=0\)</span> 或 <span
+class="math inline">\(g_1g_2=\pm1\)</span></p>
+<p>非稳腔：<span class="math inline">\(g_1g_2&lt;0\)</span> 或 <span
+class="math inline">\(g_1g_2&gt;1\)</span></p>
+<h4 id="稳区图">稳区图</h4>
+<p><img src="https://raw.githubusercontent.com/SkqLiiiao/image/main/image-20230215120502881.png" alt="image-20230215120502881" style="zoom: 33%;" /></p>
+<h4 id="典型谐振腔">典型谐振腔</h4>
+<h5 id="稳定腔">稳定腔</h5>
+<p><strong>双凹稳定腔</strong>：由两个凹面镜组成的共轴球面腔</p>
+<ul>
+<li><span class="math display">\[R_1&gt;L\]</span> 且 <span
+class="math display">\[R_2&gt;L\]</span></li>
+<li><span class="math display">\[R_1&lt;L,R_2&lt;L\]</span> 且 <span
+class="math display">\[R_1+R_2&gt;L\]</span></li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/SkqLiiiao/image/main/image-20230215121351497.png" alt="image-20230215121351497" style="zoom:25%;" /></p>
+<p><img src="https://raw.githubusercontent.com/SkqLiiiao/image/main/image-20230215121411041.png" alt="image-20230215121411041" style="zoom:25%;" /></p>
+<p><strong>平凹稳定腔</strong>：由一个凹面发射镜和一个平面发射镜组成的谐振腔</p>
+<ul>
+<li><span class="math inline">\(R&gt;L\)</span></li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/SkqLiiiao/image/main/image-20230215121337143-20230215134214500.png" alt="image-20230215121337143" style="zoom:25%;" /></p>
+<p><strong>凹凸稳定腔</strong>：由一个凹面反射镜和一个凸面反射镜组成的共轴球面腔</p>
+<ul>
+<li><span class="math display">\[R_1&lt;0,R_2&gt;L\]</span> 且 <span
+class="math display">\[R_1+R_2&lt;L\]</span></li>
+<li><span class="math display">\[R_2&gt;L\]</span> 且<span
+class="math display">\[\lvert R_1\rvert&gt;R_2-L\]</span></li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/SkqLiiiao/image/main/image-20230215121324661.png" alt="image-20230215121324661" style="zoom:25%;" /></p>
+<h5 id="临界腔">临界腔</h5>
+<p>分成实共焦腔和虚共焦腔两类，判定方式为共焦腔焦点是否在腔内。</p>
+<p><img src="https://raw.githubusercontent.com/SkqLiiiao/image/main/image-20230215121546201.png" alt="image-20230215121546201" style="zoom:33%;" /></p>
+<p><strong>对称共焦腔</strong></p>
+<ul>
+<li><span class="math inline">\(R_1=R_2=R=L=2F\)</span></li>
+<li><span class="math inline">\(g_1g_2=0\)</span></li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/SkqLiiiao/image/main/image-20230215121648176-20230215134214755.png" alt="image-20230215121648176" style="zoom: 25%;" /></p>
+<p><strong>半共焦腔</strong>——由共焦腔的任一个凹面反射镜与放在公共焦点处的平面镜组成</p>
+<ul>
+<li><span class="math inline">\(R=2L\)</span></li>
+<li><span class="math inline">\(g_1g_2=\frac{1}{2}\)</span></li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/SkqLiiiao/image/main/image-20230215121739328.png" alt="image-20230215121739328" style="zoom:25%;" /></p>
+<p><strong>平行平面腔</strong>——由两个平面反射镜组成的共轴谐振腔</p>
+<ul>
+<li><span class="math inline">\(R_1=R_2=\infty\)</span></li>
+<li><span class="math inline">\(g_1g_2=1\)</span></li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/SkqLiiiao/image/main/image-20230215121829905-20230215134214920.png" alt="image-20230215121829905" style="zoom:25%;" /></p>
+<p><strong>共心腔</strong>——两个球面反射镜的曲率中心重合的共轴球面腔</p>
+<ul>
+<li><span class="math inline">\(R_1+R_2=L\)</span></li>
+<li><span class="math inline">\(g_1g_2=1\)</span></li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/SkqLiiiao/image/main/image-20230215121949997-20230215134214997.png" alt="image-20230215121949997" style="zoom:33%;" /></p>
+<h4 id="稳定性几何判别法">稳定性几何判别法</h4>
+<ol type="1">
+<li>任一镜的两个特征点（顶点与曲率中心）之间，只包含另一镜的<strong>一个特征点</strong>时为稳定，否则为不稳定；</li>
+<li>两镜特征点有重合时，一对重合为非稳；<strong>两对重合</strong>为稳定。</li>
+</ol>
+<h3 id="开腔模式的物理概念和衍射理论">2.3
+开腔模式的物理概念和衍射理论</h3>
+<p>开腔中激光的振荡模式问题：</p>
+<ul>
+<li>在一个没有侧面边界的区域中，是否存在着不随时间变化的稳态场分布，即电磁场的本征态?</li>
+<li>如果有，应该如何求本证模式？</li>
+</ul>
+<p>自再现模——横模</p>
+<ul>
+<li>光场模式的增益和损耗决定。若认为对所有模式增益一致，则取决于损耗。
+<ul>
+<li>其中，<strong>衍射损耗</strong>为主要因素。其他损耗，如反射镜损耗、吸收损耗与腔内光场分布无关。</li>
+</ul></li>
+<li>稳定场：在腔内往返一周可“再现”（各点<strong>振幅</strong>按同样比例衰减，<strong>相位</strong>滞后等于
+<span class="math inline">\(2\pi\)</span>
+的整数倍——模的谐振条件）。</li>
+</ul>
+<h4 id="理想开腔模型">理想开腔模型</h4>
+<p>定性分析：孔阑传输线</p>
+<p><img src="https://raw.githubusercontent.com/SkqLiiiao/image/main/5c2ab272d7673d1a1d307972d93238b5.png" alt="5c2ab272d7673d1a1d307972d93238b5" style="zoom: 50%;" /></p>
+<p>定量分析：菲涅尔——基尔霍夫积分公式 <span class="math display">\[
+u(P)=\frac{ik}{4\pi}\iint_\sum{u&#39;(P&#39;)\frac{e^{-ik\rho}}{\rho}(1+\cos\theta)ds&#39;}
+\]</span>
+<img src="https://raw.githubusercontent.com/SkqLiiiao/image/main/image-20230215141530718.png" alt="image-20230215141530718" style="zoom:25%;" /></p>
+<p>做以下近似：</p>
+<ul>
+<li><span class="math inline">\(L\gg a\)</span>，在小角度近似下有 <span
+class="math inline">\((1+\cos\theta)/\rho\approx2/L\)</span>，在此情况下可以将光场的两种偏振状态作为独立变量分别求解；</li>
+<li><span class="math inline">\(a\gg \lambda\)</span>， <span
+class="math inline">\(e^{ik\rho}\)</span> 不能将 <span
+class="math inline">\(\rho\)</span> 用 <span
+class="math inline">\(L\)</span>
+代替，只能根据不同谐振腔情况来简化；</li>
+<li>腔内振幅衰减是缓慢的。</li>
+</ul>
+<p>自再现模方程化简为： <span class="math display">\[
+v(x,y)=\gamma\frac{i}{\lambda
+L}\iint\limits_s{v(x&#39;,y&#39;)e^{-ik\rho(x,y,x&#39;,y&#39;)}ds&#39;}\\
+K(x,y,x&#39;,y&#39;)=\frac{i}{\lambda L}e^{-ik\rho(x,y,x&#39;,y&#39;)}
+\]</span> 本征函数：<span
+class="math inline">\(v_{mn}(x,y)=A_{mn}(x,y)e^{i\varphi_{mn}(x,y)}\)</span></p>
+<p>本征值：<span class="math inline">\(\gamma_{mn}\)</span></p>
+<p>将 <span class="math inline">\(\gamma\)</span> 写成 <span
+class="math inline">\(e^{\alpha+i\beta}\)</span>，根据定义：<span
+class="math inline">\(u_{j+1}=\frac{1}{\gamma}u_j=(e^{-\alpha}u_j)e^{-i\beta}\)</span></p>
+<ul>
+<li><p>模：决定单程衍射损耗 <span
+class="math inline">\(\delta_d\)</span>，<span
+class="math inline">\(\delta_d=\frac{|u_j|^2-|u_{j+1}|^2}{|u_j|^2}=1-|\frac{1}{\gamma}|^2\)</span></p></li>
+<li><p>幅角：决定单程附加位移 <span
+class="math inline">\(\Delta\varphi_{mn}=\arg(1/\gamma_{mn})+kL\)</span></p></li>
+<li><p>谐振频率：<span
+class="math inline">\(\beta=-kL+\Delta\varphi=-\pi q \Rightarrow
+v_{mnq}=\frac{qc}{2L}+\frac{c}{2\pi
+L}\Delta\varphi_{mn}\)</span></p></li>
+</ul>
+<h4 id="分离变量法">分离变量法</h4>
+<p><span class="math display">\[v(x,y)=\gamma\frac{i}{\lambda
+L}\int\limits_{-a}^{a}\int\limits_{-b}^{b}{v(x&#39;,y&#39;)e^{-ik[\frac{1}{2L}(x-x&#39;)^2+\frac{1}{2L}(y-y&#39;)^2]}dx&#39;dy&#39;}\]</span></p>
+<p>设 <span class="math inline">\(v(x,y)=v(x)v(y)\)</span>，<span
+class="math inline">\(\gamma=\gamma_x\gamma_y\)</span>，则 <span
+class="math display">\[
+\left\{
+\begin{aligned}
+v(x)&amp;=\gamma_x\int\limits_{-a}^{a}{K_x(x,x&#39;)v(x&#39;)dx}\\
+v(y)&amp;=\gamma_y\int\limits_{-b}^{b}{K_y(y,y&#39;)v(y&#39;)dy}\\
+K_x(x,x&#39;)&amp;=\sqrt{\frac{i}{\lambda
+L}e^{-ikL}}e^{-\frac{ik}{2L}(x-x&#39;)^2}\\
+K_y(y,y&#39;)&amp;=\sqrt{\frac{i}{\lambda
+L}e^{-ikL}}e^{-\frac{ik}{2L}(y-y&#39;)^2}\\
+\end{aligned}
+\right.
+\]</span></p>
+<h3 id="平行平面腔模式的迭代计算方法">2.4
+平行平面腔模式的迭代计算方法</h3>
+<ul>
+<li>激光工作波长 <span class="math inline">\(\lambda=632.8\times
+10^9\)</span>nm</li>
+<li><span
+class="math inline">\(a=25\lambda,L=100\lambda,N=6.25\)</span></li>
+<li>考虑三种初始条件：
+<ul>
+<li>均匀平面波：<code>u=ones(1,N+1);</code></li>
+<li>高斯光束：<code>u=exp(-x.^2/L*lambda/pi);</code></li>
+<li>随机噪声：<code>u=rand(1,N+1)+1i*rand(1,N+1);u=u/max(abs(u));</code></li>
+</ul></li>
+<li>迭代公式：<span
+class="math inline">\(u_{j+1}(x)=\sqrt{\frac{i}{\lambda
+L}e^{-ikL}}\int_{-a}^{a}{e^{-\frac{ik}{2L}(x-x&#39;)^2}u_j(x&#39;)dx}\)</span></li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/SkqLiiiao/image/main/f33b8e702aee202d927ff06882cbe80a.png" alt="f33b8e702aee202d927ff06882cbe80a" style="zoom: 25%;" /><img src="https://raw.githubusercontent.com/SkqLiiiao/image/main/ad17200c35af2a0e9be016d8e6488d9f.png" alt="ad17200c35af2a0e9be016d8e6488d9f" style="zoom:25%;" /></p>
+<p><img src="https://raw.githubusercontent.com/SkqLiiiao/image/main/7d83aa54f482f6aefd0d4665c374ea11.png" alt="7d83aa54f482f6aefd0d4665c374ea11" style="zoom:25%;" /><img src="https://raw.githubusercontent.com/SkqLiiiao/image/main/ecc45e7e9a40a045814f10aec9b22a28.png" alt="ecc45e7e9a40a045814f10aec9b22a28" style="zoom:25%;" /></p>
+<p><img src="https://raw.githubusercontent.com/SkqLiiiao/image/main/7dabe445d53f58bc94f51a99b4b80f40.png" alt="7dabe445d53f58bc94f51a99b4b80f40" style="zoom:25%;" /><img src="https://raw.githubusercontent.com/SkqLiiiao/image/main/8aee4f92969dfc51f56968dfc347628b.png" alt="8aee4f92969dfc51f56968dfc347628b" style="zoom:25%;" /></p>
+<h3 id="方形镜共焦腔的自再现模">2.5 方形镜共焦腔的自再现模</h3>
+<p>本征函数 <span class="math display">\[
+u_{mn}(x,y)=C_{mn}H_m(\frac{\sqrt{2}x}{w_{0s}})H_n(\frac{\sqrt{2}y}{w_{0s}})e^{-\frac{x^2+y^2}{w_{0s}^2}}
+\]</span> 镜面的基模光斑半径： <span class="math display">\[
+w_{0s}=\sqrt{\frac{\lambda L}{\pi}}
+\]</span> 本征值: <span class="math display">\[
+\frac{1}{\gamma_{mn}}=4He^{-i[kL&#39;-(m+n+1)\frac{\pi}{2}]}R_{0m}^{(1)}(c,1)R_{0n}^{(1)}(c,1)
+\]</span> 其中 <span class="math inline">\(H_{m,n}(x)\)</span>
+为厄米多项式，<span class="math inline">\(R^{(1)}_{0n,0m}(c,1)\)</span>
+为长椭圆函数。</p>
+<p><img src="https://raw.githubusercontent.com/SkqLiiiao/image/main/ac03098b1a09022b1b2e7de992503313.png" alt="ac03098b1a09022b1b2e7de992503313" style="zoom:67%;" /></p>
+<p><strong>谐振频率</strong>：</p>
+<p><span class="math display">\[v_{mnq}=\frac{c}{2\eta
+L}[q+(n+m+1)/2]\]</span></p>
+<p><strong>频率间隔</strong>：</p>
+<p><span
+class="math inline">\(\Delta\nu_q=\frac{c}{2L&#39;},\Delta\nu_m=\Delta\nu_n=\frac{c}{4L&#39;}\)</span></p>
+<p><strong>模式简并</strong>： <span
+class="math inline">\(2q+n+m\)</span> 相等的模式，谐振频率相等。</p>
+<p><img src="https://raw.githubusercontent.com/SkqLiiiao/image/main/image-20230215205310340.png" alt="image-20230215205310340" style="zoom: 25%;" /></p>
+<h3 id="圆形镜共焦腔的自再现模">2.6 圆形镜共焦腔的自再现模</h3>
+<p><img src="https://raw.githubusercontent.com/SkqLiiiao/image/main/image-20230215205434146.png" alt="image-20230215205434146" style="zoom: 25%;" /></p>
+<p><strong>拉盖尔-高斯分布</strong>： <span class="math display">\[
+u_{m,n}(r,\varphi)=C_{m,n}(\frac{\sqrt{2}r}{w_{0s}})^mL_n^m(\frac{2r^2}{w_{0s}^2})e^{-\frac{r^2}{w_{0s}^2}}\cos{m\varphi}
+\]</span> 本征值：<span
+class="math inline">\(\sigma_{mn}=e^{-i[kL&#39;-(m+2n+1)\frac{\pi}{2}]}\)</span></p>
+<p><strong>场振幅分布</strong>：<span
+class="math inline">\(u_{00}(r,\varphi)=e^{-\frac{r^2}{w_{0s}^2}}\)</span></p>
+<p><img src="https://raw.githubusercontent.com/SkqLiiiao/image/main/image-20230215210114544.png" alt="image-20230215210114544" style="zoom:25%;" /></p>
+<p><strong>谐振频率</strong>：</p>
+<p><span
+class="math display">\[v_{mnq}=\frac{c}{2L&#39;}[q+(2n+m+1)/2]\]</span></p>
+<p><strong>频率间隔</strong>：</p>
+<p><span
+class="math inline">\(\Delta\nu_q=\Delta\nu_n=\frac{c}{2L&#39;},\Delta\nu_m=\frac{c}{4L&#39;}\)</span></p>
+<p><strong>模式简并</strong>： <span
+class="math inline">\(2q+2n+m\)</span> 相等的模式，谐振频率相等。</p>
+<h3 id="共焦腔的行波场">2.7 共焦腔的行波场</h3>
+<ul>
+<li>共焦参数 <span
+class="math inline">\(f=\frac{L}{2}=\frac{\pi\omega_0^2}{\lambda}\)</span></li>
+<li>瑞利长度 <span
+class="math inline">\(z_R=\frac{\pi\omega_0^2}{\lambda}\)</span></li>
+<li>光板半径 <span
+class="math inline">\(\omega(z)=\omega_0\sqrt{1+(\frac{z}{f})^2}\)</span></li>
+<li>等相位面曲率半径 <span
+class="math inline">\(R(z)=z[1+(\frac{f}{z})^2]\)</span></li>
+<li>远场发散角 <span
+class="math inline">\(\theta_0=2\sqrt{\frac{\lambda}{\pi
+f}}\)</span></li>
+<li><span
+class="math inline">\(\omega_{0s}=\sqrt{\frac{L\lambda}{\pi}}\)</span>，<span
+class="math inline">\(\omega_0=\frac{\omega_{0s}}{2}=\sqrt{\frac{f\lambda}{\pi}}\)</span></li>
+</ul>
+<h3 id="一般稳定球面腔的模式特征">2.8 一般稳定球面腔的模式特征</h3>
+<p>任意一个共焦球面腔与无穷多个稳定球面腔等价。</p>
+<p><strong>等价</strong>——指两种腔具有<strong>相同的自再现模</strong></p>
+<p>这种等价性是以共焦腔模式的空间分布，尤其是<strong>等相位面的分布</strong>为依据的，共焦腔中与腔的轴线相交于任意一点的等相位面的曲率半径为:</p>
+<p>满足以下条件的无穷多个球面反射镜腔都等价于图中的共焦腔 <span
+class="math display">\[
+\left\{
+\begin{aligned}
+R_1&amp;=-z_1-\frac{f^2}{z_1}\\
+R_2&amp;=z_2+\frac{f^2}{z_2}\\
+L&amp;=z_2-z_1
+\end{aligned}
+\right.
+\]</span>
+<img src="https://raw.githubusercontent.com/SkqLiiiao/image/main/image-20230215212609363.png" alt="image-20230215212609363" style="zoom:25%;" /></p>
+<p>任一满足稳定条件的球面腔唯一地等价于一个等价共焦腔。</p>
+<p><img src="https://raw.githubusercontent.com/SkqLiiiao/image/main/49c527637294b1d7a7ab3c67bc8c3127.png" alt="49c527637294b1d7a7ab3c67bc8c3127" style="zoom: 50%;" />
+<span class="math display">\[
+\left\{
+\begin{aligned}
+z_1&amp;=\frac{L(R_2-L)}{(L-R_1)+(L-R_2)}\\
+z_2&amp;=\frac{-L(R_2-L)}{(L-R_1)+(L-R_2)}\\
+f^2&amp;=\frac{L(R_1-L)(R_2-L)(R_1+R_2-L)}{[(L-R_1)+(L-R_2)]^2}
+\end{aligned}
+\right.
+\]</span></p>
+<h3 id="高斯光束的基本性质及特征参数">2.9
+高斯光束的基本性质及特征参数</h3>
+<ul>
+<li><p><span
+class="math inline">\(w(z)=w_0\sqrt{1+(\frac{z}{f})^2}\)</span></p></li>
+<li><p><span
+class="math inline">\(R(z)=z[1+(\frac{f}{z})^2]\)</span></p></li>
+<li><p>共焦参数 <span class="math inline">\(f=\frac{\pi
+w_0^2}{\lambda}\)</span></p></li>
+<li><p>腰斑半径 <span class="math inline">\(w_0=\sqrt{\frac{\lambda
+f}{\pi}}\)</span></p></li>
+<li><p><span class="math inline">\(q\)</span> 参数：<span
+class="math inline">\(\frac{1}{q(z)}=\frac{1}{R(z)}-i\frac{\lambda}{\pi
+w^2(z)} \Rightarrow q(z)=z+if\)</span></p></li>
+</ul>
+<h3 id="高斯光束的-q-参数传输规律">2.10 高斯光束的 <span
+class="math inline">\(q\)</span> 参数传输规律</h3>
+<p>ABCD定律：<span
+class="math inline">\(q&#39;=\frac{Aq+B}{Cq+D}\)</span></p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E6%BF%80%E5%85%89/" rel="tag"># 激光</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2023-Week7/" rel="prev" title="2023年第七周日记">
+                  <i class="fa fa-chevron-left"></i> 2023年第七周日记
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/laser/" rel="next" title="「激光原理与技术」总结复习">
+                  「激光原理与技术」总结复习 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2023</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">SkqLiiiao</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/pisces/" rel="noopener" target="_blank">NexT.Pisces</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  
+
+
+
+
+
+  
+
+
+
+
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">true</script><script class="next-config" data-name="mathjax" type="application/json">{"enable":true,"tags":"none","js":{"url":"https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js","integrity":"sha256-r+3itOMtGGjap0x+10hu6jW/gZCzxHsoKrOd7gyRSGY="}}</script>
+<script src="/js/third-party/math/mathjax.js"></script>
+
+
+
+</body>
+</html>
